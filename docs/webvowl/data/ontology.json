@@ -1,0 +1,2748 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://dbpedia.org/page/Airliner", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/a/ontologies/2024/3/fsso", "http://www.w3.org/2001/XMLSchema", "https://dbpedia.org/page" ],
+    "title" : {
+      "undefined" : "FSSO - Flight Satisfaction Survey Ontology"
+    },
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "version" : "1.0.0",
+    "author" : [ "AinhoaA" ],
+    "labels" : {
+      "undefined" : "FSSO - Flight Satisfaction Survey Ontology"
+    },
+    "comments" : {
+      "undefined" : "An ontology that describes the flight satisfaction survey concepts and their relationships."
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "undefined",
+        "value" : "2024-04-25",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "AinhoaA",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "FSSO - Flight Satisfaction Survey Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "103",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_ValueForMoney",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_ValueForMoney",
+      "undefined" : "Good_ValueForMoney"
+    },
+    "comment" : {
+      "undefined" : "A good value for money rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_FoodBeverages",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_FoodBeverages",
+      "undefined" : "Bad_FoodBeverages"
+    },
+    "comment" : {
+      "undefined" : "A bad food and beverages rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_GroundServices",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_GroundServices",
+      "undefined" : "Medium_GroundServices"
+    },
+    "comment" : {
+      "undefined" : "A medium ground services rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_CabinStaff",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_CabinStaff",
+      "undefined" : "Good_CabinStaff"
+    },
+    "comment" : {
+      "undefined" : "A good cabin staff rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Recommendation",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recommendation",
+      "undefined" : "Recommendation"
+    },
+    "subClasses" : [ "21", "22" ],
+    "comment" : {
+      "undefined" : "A recommendation, either yes or no, given by the passenger, representing if they would recommend the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/FoodBeverages",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodBeverages",
+      "undefined" : "FoodBeverages"
+    },
+    "subClasses" : [ "24", "5", "25" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the food and beverages offered in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_ValueForMoney",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_ValueForMoney",
+      "undefined" : "Medium_ValueForMoney"
+    },
+    "comment" : {
+      "undefined" : "A medium value for money rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://dbpedia.org/page/Airline",
+    "baseIri" : "https://dbpedia.org/page",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airline",
+      "undefined" : "Airline"
+    },
+    "comment" : {
+      "undefined" : "A commercial airline company."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/SeatComfort",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeatComfort",
+      "undefined" : "SeatComfort"
+    },
+    "subClasses" : [ "31", "32", "33" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the seat comfort offered in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Recommended",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recommended",
+      "undefined" : "Recommended"
+    },
+    "comment" : {
+      "undefined" : "A positive recommendation by the passenger, representing that they recommend the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/DomesticFlight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DomesticFlight",
+      "undefined" : "DomesticFlight"
+    },
+    "comment" : {
+      "undefined" : "A flight which origin and destination airport are located in the some country."
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Survey",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Survey",
+      "undefined" : "Survey"
+    },
+    "subClasses" : [ "44", "45" ],
+    "comment" : {
+      "undefined" : "A satisfaction survey filled by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_InflightEntertainment",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_InflightEntertainment",
+      "undefined" : "Good_InflightEntertainment"
+    },
+    "comment" : {
+      "undefined" : "A good inflight entertainment rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/InflightEntertainment",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InflightEntertainment",
+      "undefined" : "InflightEntertainment"
+    },
+    "subClasses" : [ "52", "59", "60" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the inflight entertainment options offered in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/SpecificRating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpecificRating",
+      "undefined" : "SpecificRating"
+    },
+    "subClasses" : [ "30", "1", "11", "19", "65", "53", "6" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) inferred by the rating out of 10 given by a passenger about some service provided by the airliner in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Passenger",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Passenger",
+      "undefined" : "Passenger"
+    },
+    "comment" : {
+      "undefined" : "A traveller that has taken a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/GroundServices",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GroundServices",
+      "undefined" : "GroundServices"
+    },
+    "subClasses" : [ "76", "10", "77" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the ground services offered in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_InflightEntertainment",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_InflightEntertainment",
+      "undefined" : "Medium_InflightEntertainment"
+    },
+    "comment" : {
+      "undefined" : "A medium inflight entertainment rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/OverallRating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OverallRating",
+      "undefined" : "OverallRating"
+    },
+    "subClasses" : [ "81", "82", "83" ],
+    "comment" : {
+      "undefined" : "The overall rating (good, medium or bad) inferred from the 0 to 10 points rating given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/InternationalFlight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InternationalFlight",
+      "undefined" : "InternationalFlight"
+    },
+    "comment" : {
+      "undefined" : "A flight which origin and destination airports are located in different countries."
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/FlightClass",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightClass",
+      "undefined" : "FlightClass"
+    },
+    "comment" : {
+      "undefined" : "A flight class that represents the quality of cabin, seat and service selected by the passenger: EconomyClass, PremiumEconomyClass, BusinessClass, FirstClass."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/CabinStaff",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CabinStaff",
+      "undefined" : "CabinStaff"
+    },
+    "subClasses" : [ "95", "96", "18" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the cabin staff in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://dbpedia.org/page/Country",
+    "baseIri" : "https://dbpedia.org/page",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "undefined" : "Country"
+    },
+    "comment" : {
+      "undefined" : "A country of the world."
+    },
+    "attributes" : [ "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_WifiConnectivity",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_WifiConnectivity",
+      "undefined" : "Good_WifiConnectivity"
+    },
+    "comment" : {
+      "undefined" : "A good wifi and connectivity rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/NonVerifiedSurvey",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonVerifiedSurvey",
+      "undefined" : "NonVerifiedSurvey"
+    },
+    "intersection" : [ "27" ],
+    "comment" : {
+      "undefined" : "A non-verified satisfaction survey filled by a passenger about a flight. It has not been verified that the passenger took the flight for which it has filled the survey."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "44",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Rating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rating",
+      "undefined" : "Rating"
+    },
+    "subClasses" : [ "23", "80" ],
+    "comment" : {
+      "undefined" : "A rating given by a passenger about the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/TravelPurpose",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TravelPurpose",
+      "undefined" : "TravelPurpose"
+    },
+    "comment" : {
+      "undefined" : "The reason the passenger has taken the flight: SoloLeisure, CoupleLeisure, FamilyLeisure, Business."
+    },
+    "attributes" : [ "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_OverallRating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_OverallRating",
+      "undefined" : "Bad_OverallRating"
+    },
+    "comment" : {
+      "undefined" : "A bad overall rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_GroundServices",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_GroundServices",
+      "undefined" : "Good_GroundServices"
+    },
+    "comment" : {
+      "undefined" : "A good ground services rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_SeatComfort",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_SeatComfort",
+      "undefined" : "Medium_SeatComfort"
+    },
+    "comment" : {
+      "undefined" : "A medium seat comfort rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_SeatComfort",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_SeatComfort",
+      "undefined" : "Bad_SeatComfort"
+    },
+    "comment" : {
+      "undefined" : "A bad seat comfort rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://dbpedia.org/page/Airliner",
+    "baseIri" : "https://dbpedia.org/page",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airliner",
+      "undefined" : "Airliner"
+    },
+    "comment" : {
+      "undefined" : "A commercial airliner or aircraft model used to transport passengers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_CabinStaff",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_CabinStaff",
+      "undefined" : "Bad_CabinStaff"
+    },
+    "comment" : {
+      "undefined" : "A bad cabin staff rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_WifiConnectivity",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_WifiConnectivity",
+      "undefined" : "Medium_WifiConnectivity"
+    },
+    "comment" : {
+      "undefined" : "A medium wifi and connectivity rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_SeatComfort",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_SeatComfort",
+      "undefined" : "Good_SeatComfort"
+    },
+    "comment" : {
+      "undefined" : "A good seat comfort rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_FoodBeverages",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_FoodBeverages",
+      "undefined" : "Medium_FoodBeverages"
+    },
+    "comment" : {
+      "undefined" : "A medium food and beverages rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/VerifiedSurvey",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VerifiedSurvey",
+      "undefined" : "VerifiedSurvey"
+    },
+    "intersection" : [ "27" ],
+    "comment" : {
+      "undefined" : "A verified satisfaction survey filled by a passenger about a flight. It has been verified that the passenger took the flight for which it has filled the survey."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "45",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/NotRecommended",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NotRecommended",
+      "undefined" : "NotRecommended"
+    },
+    "comment" : {
+      "undefined" : "A negative recommendation by the passenger, representing that they do not recommend the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/ValueForMoney",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ValueForMoney",
+      "undefined" : "ValueForMoney"
+    },
+    "subClasses" : [ "0", "120", "29" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the value for money or quality offered in the flight, cost-effectiveness."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/NonStopFlight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonStopFlight",
+      "undefined" : "NonStopFlight"
+    },
+    "intersection" : [ "14" ],
+    "comment" : {
+      "undefined" : "A flight that makes no stops between origin and destination airports."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "123",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_OverallRating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_OverallRating",
+      "undefined" : "Good_OverallRating"
+    },
+    "comment" : {
+      "undefined" : "A good overall rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Good_FoodBeverages",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_FoodBeverages",
+      "undefined" : "Good_FoodBeverages"
+    },
+    "comment" : {
+      "undefined" : "A good food and beverages rating inferred by a rating of 7 or more out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_InflightEntertainment",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_InflightEntertainment",
+      "undefined" : "Bad_InflightEntertainment"
+    },
+    "comment" : {
+      "undefined" : "A bad inflight entertainment rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "72",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_OverallRating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_OverallRating",
+      "undefined" : "Medium_OverallRating"
+    },
+    "comment" : {
+      "undefined" : "A medium overall rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/WifiConnectivity",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WifiConnectivity",
+      "undefined" : "WifiConnectivity"
+    },
+    "subClasses" : [ "115", "101", "135" ],
+    "comment" : {
+      "undefined" : "A specific rating (good, medium or bad) given by a passenger about the wifi and connectivity quality and optiones offered in the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Medium_CabinStaff",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_CabinStaff",
+      "undefined" : "Medium_CabinStaff"
+    },
+    "comment" : {
+      "undefined" : "A medium cabin staff rating inferred by a rating of 5 or 6 out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://dbpedia.org/page/Airliner#PathType",
+    "baseIri" : "https://dbpedia.org/page/Airliner",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PathType",
+      "undefined" : "PathType"
+    },
+    "subClasses" : [ "86", "34" ],
+    "comment" : {
+      "undefined" : "Identifies the path type of the flight, whether it is a domestic or an international flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_ValueForMoney",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_ValueForMoney",
+      "undefined" : "Bad_ValueForMoney"
+    },
+    "comment" : {
+      "undefined" : "A bad value for moeny rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_GroundServices",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_GroundServices",
+      "undefined" : "Bad_GroundServices"
+    },
+    "comment" : {
+      "undefined" : "A bad ground services rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/ConnectingFlight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConnectingFlight",
+      "undefined" : "ConnectingFlight"
+    },
+    "intersection" : [ "14" ],
+    "comment" : {
+      "undefined" : "A flight that requires one or more stops between the origin and destination airports, without changing flight number or aircraft."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "172",
+    "superClasses" : [ "14" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "48", "70" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "103"
+  }, {
+    "instances" : 0,
+    "union" : [ "48", "70" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/FlightNumber",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightNumber",
+      "undefined" : "FlightNumber"
+    },
+    "subClasses" : [ "123", "35", "172" ],
+    "comment" : {
+      "undefined" : "A commercial flight identified by flight number that has an origin and a destination airport provided by an airline."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://dbpedia.org/page/Airport",
+    "baseIri" : "https://dbpedia.org/page",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airport",
+      "undefined" : "Airport"
+    },
+    "comment" : {
+      "undefined" : "An airport that is identified by its IATA."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Bad_WifiConnectivity",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_WifiConnectivity",
+      "undefined" : "Bad_WifiConnectivity"
+    },
+    "comment" : {
+      "undefined" : "A bad wifi and connectivity rating inferred by a rating of 4 or less out of 10 given by a passenger about a flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/Flight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight",
+      "undefined" : "Flight"
+    },
+    "comment" : {
+      "undefined" : "A specific flight that travelled in a date and time with a specific airliner (aircraft model) where passengers were given a satisfaction survey."
+    },
+    "attributes" : [ "external" ],
+    "id" : "55"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "178",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "180",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAirlineName",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasAirlineName",
+      "undefined" : "hasAirlineName"
+    },
+    "cardinality" : "1",
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "Relates an airliner name with an airline."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAircraftModel",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasAircraftModel",
+      "undefined" : "hasAircraftModel"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Relates an aircraft model name with an aircraft."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasDepartureFlight",
+    "inverse" : "15",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasDepartureFlight",
+      "undefined" : "hasDepartureFlight"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Relates a flight number with its departure/origin airport."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/airlineHasFlightNumber",
+    "inverse" : "17",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "airlineHasFlightNumber",
+      "undefined" : "airlineHasFlightNumber"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "Relates the flight numbers with an airline."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightClass",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasFlightClass",
+      "undefined" : "hasFlightClass"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates the flight class with a written survey."
+    },
+    "attributes" : [ "object", "asymmetric", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasStopAirport",
+    "inverse" : "37",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasStopAirport",
+      "undefined" : "hasStopAirport"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates a stop in a third airport between origin and destination with a flight number."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/isRecommended",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "isRecommended",
+      "undefined" : "isRecommended"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a recommendation decision with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasNoStops",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasNoStops",
+      "undefined" : "hasNoStops"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates a non-stop flight with a flight number."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasCabinStaffOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "hasCabinStaffOutOf10",
+      "undefined" : "hasCabinStaffOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a cabin staff rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasRecommendation",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasRecommendation",
+      "undefined" : "hasRecommendation"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a recommendation with a survey, by inferring."
+    },
+    "attributes" : [ "object", "asymmetric", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAirports",
+    "inverse" : "49",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasAirports",
+      "undefined" : "hasAirports"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "Relates airports with the country they are located in."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasSurveyID",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "hasSurveyID",
+      "undefined" : "hasSurveyID"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a survey id with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/airlinerUsedIn",
+    "inverse" : "56",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "airlinerUsedIn",
+      "undefined" : "airlinerUsedIn"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Relates the specific flights with the airliner used."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightDate",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "hasFlightDate",
+      "undefined" : "hasFlightDate"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Encapsulates a flight date inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasDestinationAirport",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasDestinationAirport",
+      "undefined" : "hasDestinationAirport"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates a destination airport with a flight number."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasCommentTitle",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasCommentTitle",
+      "undefined" : "hasCommentTitle"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a comment title with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/flightHasSurvey",
+    "inverse" : "67",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "flightHasSurvey",
+      "undefined" : "flightHasSurvey"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates the surveys that have been written about a flight."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightDateTime",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasFlightDateTime",
+      "undefined" : "hasFlightDateTime"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Encapsulate the flight date and time inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightMonth",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "hasFlightMonth",
+      "undefined" : "hasFlightMonth"
+    },
+    "cardinality" : "1",
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates a month with a flight."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightTime",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "hasFlightTime",
+      "undefined" : "hasFlightTime"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Encapsulates flight time inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasCommentBody",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasCommentBody",
+      "undefined" : "hasCommentBody"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a comment body with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFoodBeveragesOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "hasFoodBeveragesOutOf10",
+      "undefined" : "hasFoodBeveragesOutOf10"
+    },
+    "maxCardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a food and beverages rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightMinute",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasFlightMinute",
+      "undefined" : "hasFlightMinute"
+    },
+    "cardinality" : "1",
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates a minute with a flight."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/isWrittenBy",
+    "inverse" : "92",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "isWrittenBy",
+      "undefined" : "isWrittenBy"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a passenger with a survey they have written."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightNumber",
+    "inverse" : "94",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasFlightNumber",
+      "undefined" : "hasFlightNumber"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates a specific flight with a flight number."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasSpecificFlight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "hasSpecificFlight",
+      "undefined" : "hasSpecificFlight"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates the specific flights that had surveys with a flight number."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasTravelPurpose",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "hasTravelPurpose",
+      "undefined" : "hasTravelPurpose"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a travel purpose with a written survey."
+    },
+    "attributes" : [ "object", "asymmetric", "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/wrote",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "wrote",
+      "undefined" : "wrote"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Relates the surveys with the passenger that wrote them."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/isLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "isLocatedIn",
+      "undefined" : "isLocatedIn"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Relates an airport to the country they are located in."
+    },
+    "attributes" : [ "object", "asymmetric", "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://dbpedia.org/page/Airliner#isVerified",
+    "baseIri" : "https://dbpedia.org/page/Airliner",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "isVerified",
+      "undefined" : "isVerified"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a verification boolean with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/isAboutFlight",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "isAboutFlight",
+      "undefined" : "isAboutFlight"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a specific flight with a survey."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasCountryOfResidence",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "hasCountryOfResidence",
+      "undefined" : "hasCountryOfResidence"
+    },
+    "domain" : "103",
+    "comment" : {
+      "undefined" : "Relates a passenger with their country of residence symmetricaly."
+    },
+    "attributes" : [ "object", "symmetric", "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasInflightEntertainmentOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasInflightEntertainmentOutOf10",
+      "undefined" : "hasInflightEntertainmentOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates an inflight entertainment rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightDay",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "hasFlightDay",
+      "undefined" : "hasFlightDay"
+    },
+    "cardinality" : "1",
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates a day with a flight."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAirliner",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasAirliner",
+      "undefined" : "hasAirliner"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates a specific flight with the airliner/aircraft model that it used."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightYear",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "hasFlightYear",
+      "undefined" : "hasFlightYear"
+    },
+    "cardinality" : "1",
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates a year with a flight."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasRating",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasRating",
+      "undefined" : "hasRating"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a rating with a survey, by inferring."
+    },
+    "attributes" : [ "object", "asymmetric", "external" ],
+    "id" : "117"
+  }, {
+    "range" : "30",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "range" : "30",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasValueForMoneyOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "hasValueForMoneyOutOf10",
+      "undefined" : "hasValueForMoneyOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a value for money (cost-effectiveness) rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "124"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "6",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "30",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "6",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "20",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "20",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasOverallRatingOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "hasOverallRatingOutOf10",
+      "undefined" : "hasOverallRatingOutOf10"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates an overall rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAirportName",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "hasAirportName",
+      "undefined" : "hasAirportName"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Relates an airport name with an airport."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasIATA",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "hasIATA",
+      "undefined" : "hasIATA"
+    },
+    "cardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Relates an IATA (3 letter string) with an airport."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "139"
+  }, {
+    "range" : "11",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "80",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "80",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "11",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasSpecificRatingOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "hasSpecificRatingOutOf10",
+      "undefined" : "hasSpecificRatingOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Encapsulates different specific survey rating inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasSurveyInfo",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "hasSurveyInfo",
+      "undefined" : "hasSurveyInfo"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Encapsulates different satisfaction survey information inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "149"
+  }, {
+    "range" : "65",
+    "domain" : "135",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "65",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "23",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "23",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "65",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasArrivalFlight",
+    "inverse" : "61",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasArrivalFlight",
+      "undefined" : "hasArrivalFlight"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Relates a flight number with its arrival/destination airport."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "155"
+  }, {
+    "range" : "23",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "23",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "23",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "23",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "23",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasPublicationDate",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "hasPublicationDate",
+      "undefined" : "hasPublicationDate"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a publication date with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "161"
+  }, {
+    "range" : "53",
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "53",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasGroundServicesOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "hasGroundServicesOutOf10",
+      "undefined" : "hasGroundServicesOutOf10"
+    },
+    "maxCardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a ground services rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "164"
+  }, {
+    "range" : "53",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "1",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "1",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasFlightHour",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "hasFlightHour",
+      "undefined" : "hasFlightHour"
+    },
+    "cardinality" : "1",
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates an hour with a flight."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "168"
+  }, {
+    "range" : "27",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "27",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasSeatComfortOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasSeatComfortOutOf10",
+      "undefined" : "hasSeatComfortOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a seat comfort rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/flightHasSurvey",
+    "inverse" : "67",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "flightHasSurvey",
+      "undefined" : "flightHasSurvey"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Relates the surveys that have been written about a flight."
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "173"
+  }, {
+    "range" : "45",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasPassengerName",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "hasPassengerName",
+      "undefined" : "hasPassengerName"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Relates a name with a passenger."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/wrote",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "wrote",
+      "undefined" : "wrote"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Relates the surveys with the passenger that wrote them."
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasComment",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "hasComment",
+      "undefined" : "hasComment"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Encapsulates a comment type (title and body) inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasCountryOfResidence",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasCountryOfResidence",
+      "undefined" : "hasCountryOfResidence"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "Relates a passenger with their country of residence symmetricaly."
+    },
+    "attributes" : [ "object", "symmetric", "someValues", "external" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAirports",
+    "inverse" : "49",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasAirports",
+      "undefined" : "hasAirports"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "Relates airports with the country they are located in."
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "180"
+  }, {
+    "range" : "123",
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasAirline",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasAirline",
+      "undefined" : "hasAirline"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates a flight number with the airline that provides it."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  }, {
+    "range" : "86",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/isStopFor",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isStopFor",
+      "undefined" : "isStopFor"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Relates a flight number with its stop airport."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "37"
+  }, {
+    "range" : "14",
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "14",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "64",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "64",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasRatingOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "hasRatingOutOf10",
+      "undefined" : "hasRatingOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Encapsulates different survey rating inputs."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "187"
+  }, {
+    "range" : "14",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasWifiConnectivityOutOf10",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "hasWifiConnectivityOutOf10",
+      "undefined" : "hasWifiConnectivityOutOf10"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Relates a wifi and connectivity rating between 0 (worst) and 10 (best) with a survey."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "189"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "19",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "iri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso/hasOriginAirport",
+    "baseIri" : "http://www.semanticweb.org/a/ontologies/2024/3/fsso",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasOriginAirport",
+      "undefined" : "hasOriginAirport"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates an origin airport with a flight number."
+    },
+    "attributes" : [ "object", "asymmetric", "external" ],
+    "id" : "15"
+  }, {
+    "range" : "35",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "80",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "19",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  } ]
+}
